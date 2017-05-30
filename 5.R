@@ -1,0 +1,6 @@
+a<-seq(0,10,0.1)
+#b<-sin(a*0.0174533)
+#c<-cos(a*0.0174533)
+png(file="sincosplot.png")
+plot(sin(a),type="l",col="red",xlab="time",ylab="frq")
+lines(cos(a),type="l",col="blue")
